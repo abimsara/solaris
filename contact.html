@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Solaris Lanka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a href="index.html" class="logo"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></span>Solaris Lanka</a>
+    <ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html" class="active">Contact</a></li></ul>
+    <div class="nav-cta"><a href="contact.html" class="btn btn-primary">Get a Quote</a><button class="menu-toggle" aria-label="Menu"><span></span></button></div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / <span>Contact</span></div>
+    <h1>Get in Touch</h1>
+    <p>Request a free quote or ask us anything — we reply within 24 hours.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="feature-split">
+      <div class="reveal">
+        <div class="eyebrow">Contact Info</div>
+        <h2>We're Here to Help</h2>
+        <p style="margin:16px 0 32px; font-size:1.05rem;">Reach us by phone, email, or visit our office. Or fill out the form and we'll come to you.</p>
+        <div style="display:flex; flex-direction:column; gap:16px;">
+          <div class="info-card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></div>
+            <div><h4>Phone</h4><a href="tel:+94771234567">+94 77 123 4567</a></div>
+          </div>
+          <div class="info-card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></div>
+            <div><h4>Email</h4><a href="mailto:hello@solarislanka.lk">hello@solarislanka.lk</a></div>
+          </div>
+          <div class="info-card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><h4>Office</h4><p>123 Galle Road, Colombo 03</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <form id="contactForm" class="card" style="padding:40px;" novalidate>
+          <h3 style="margin-bottom:8px;">Send Us a Message</h3>
+          <p style="font-size:.9rem; margin-bottom:24px;">Tell us about your project and we'll respond within 24 hours.</p>
+          <div class="form-grid">
+            <div class="form-field"><label>Full Name</label><input type="text" required placeholder="John Perera" /><span class="error-msg">Please enter your name</span></div>
+            <div class="form-field"><label>Email</label><input type="email" required placeholder="you@email.com" /><span class="error-msg">Please enter a valid email</span></div>
+            <div class="form-field"><label>Phone</label><input type="tel" required placeholder="+94 7X XXX XXXX" /><span class="error-msg">Please enter your phone</span></div>
+            <div class="form-field"><label>Service Type</label><select required><option value="">Select...</option><option>Residential Solar</option><option>Commercial Solar</option><option>Off-Grid System</option><option>Maintenance</option><option>Consultation</option></select><span class="error-msg">Please select a service</span></div>
+            <div class="form-field full"><label>Message</label><textarea required placeholder="Tell us about your requirements..."></textarea><span class="error-msg">Please enter a message</span></div>
+            <div class="form-field full"><button type="submit" class="btn btn-primary btn-lg btn-block">Send Message →</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="grid-3">
+      <div class="card reveal text-center"><h3>Mon–Fri</h3><p style="margin-top:8px;">8:30 AM – 6:00 PM</p></div>
+      <div class="card reveal text-center"><h3>Saturday</h3><p style="margin-top:8px;">9:00 AM – 2:00 PM</p></div>
+      <div class="card reveal text-center"><h3>Sunday</h3><p style="margin-top:8px;">Closed</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><a href="index.html" class="logo"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></span>Solaris Lanka</a><p class="footer-about">Sri Lanka's trusted solar energy partner.</p></div>
+      <div><h4>Company</h4><a href="about.html">About Us</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></div>
+      <div><h4>Services</h4><a href="services.html">Residential</a><a href="services.html">Commercial</a><a href="services.html">Off-Grid</a><a href="services.html">Maintenance</a></div>
+      <div><h4>Get in Touch</h4><ul class="footer-contact"><li>📞 +94 77 123 4567</li><li>✉️ hello@solarislanka.lk</li><li>📍 123 Galle Road, Colombo 03</li></ul></div>
+    </div>
+    <div class="footer-bottom"><div>© 2025 Solaris Lanka. All rights reserved.</div><div>Designed & developed by <a href="#">Nexa3 Solutions</a></div></div>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
